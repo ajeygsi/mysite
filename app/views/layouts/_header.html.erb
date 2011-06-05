@@ -1,13 +1,9 @@
 <header>
-  <nav class="menu">
+  <%= link_to image_tag("logo.png"), root_path %>
+  <nav class="round">
     <ul>
-      <li><%= link_to "Home"%></li>
-      <li><%= link_to "Users"%></li>
-      <li><%= link_to "Profile" %></li>
-      <li><%= link_to "Settings"%></li>
-      <li><%= link_to "Help" %></li>
-      <li><%= link_to "Graffiti"%></li>
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Help", help_path%></li>
     </ul>
   </nav>
 </header>
-
